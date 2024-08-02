@@ -3,11 +3,4 @@
   <p>Aqui se va encontrar mis proyectos mas personales</p>
   <p>Donde me voy a basar mas con</p>
 </div>
-<div>
-  <ol>
-    <li>HTML></li>
-    <li>Css</li>
-    <li>Javascript</li>
-  </ol>
-  <p>y lo que venga, ya que estoy aprendiendo varios lenguajes en este momento</p>
-</div>
+<img src="https://concepto.de/wp-content/uploads/2014/08/programacion-2-e1551291144973.jpg" align = "center" width = 400 height = 400>
