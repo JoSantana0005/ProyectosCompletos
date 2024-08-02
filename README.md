@@ -2,6 +2,8 @@
   <h2>Proyectos Avanzados</h2>
   <p>Aqui se va encontrar mis proyectos mas personales</p>
   <p>Donde me voy a basar mas con</p>
+</div>
+<div>
   <ol>
     <li>HTML></li>
     <li>Css</li>
