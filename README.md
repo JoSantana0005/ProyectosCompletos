@@ -1,1 +1,1 @@
-<h1 color="Red">Proyectos Avazandos</h1>
+<h1 allign = "center">Proyectos Avazandos</h1>
