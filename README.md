@@ -7,7 +7,6 @@
   <img src = "https://i.ibb.co/tL1v6Jt/html-5.png" width = 150 height = 150>
   <img src = "https://i.ibb.co/j86Drxg/css-3.png" width = 150 height = 150>
   <img src = "https://i.ibb.co/pKKrwn3/javascript-js-icon-2048x2048-nyxvtvk0.png" width = 150 height = 150>
-  <br>
   <p>Igualmente van a ver mas lenguajes pero , esos tres será los principales en este repositorio</p>
 </div>
 
