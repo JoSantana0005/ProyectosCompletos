@@ -1,0 +1,17 @@
+html{
+    background-color: black;
+    font-size: 12px;
+    width: 100px;
+}
+.Main__header{
+    background-color: yellow;
+    width: 90em;
+    border: 3px solid whitesmoke;
+    margin-left: 120px;
+}
+.Main_header__h1{
+    text-shadow: 3px 2px 3px blue;
+    justify-content: center;
+    text-align: center;
+
+}
