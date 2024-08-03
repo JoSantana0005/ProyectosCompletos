@@ -4,5 +4,7 @@
   <img src="https://concepto.de/wp-content/uploads/2014/08/programacion-2-e1551291144973.jpg"  width = 600 height = 400>
   <p>donde me voy a enfocar más en los siguientes lenguajes</p>
   <img src = "https://i.ibb.co/tL1v6Jt/html-5.png" width = 150 height = 150>
+  <img src = "https://i.ibb.co/j86Drxg/css-3.png" width = 150 height = 150>
+  <img src = "https://i.ibb.co/pKKrwn3/javascript-js-icon-2048x2048-nyxvtvk0.png" width = 150 height = 150>
 </div>
 
