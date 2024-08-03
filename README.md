@@ -4,7 +4,9 @@
   <img src="https://concepto.de/wp-content/uploads/2014/08/programacion-2-e1551291144973.jpg"  width = 600 height = 400>
   <p>donde me voy a enfocar más en los siguientes lenguajes</p>
   <ol display = "inline">
-    <li><img src="https://i.ibb.co/tL1v6Jt/html-5.png" width = 100 height = 50></li>
+    <li>HTML</li>
+    <li>Css</li>
+    
   </ol>
 </div>
 
