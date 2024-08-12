@@ -1,17 +1,106 @@
-html{
-    background-color: black;
-    font-size: 12px;
-    width: 100px;
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("https://png.pngtree.com/background/20230410/original/pngtree-game-star-wars-background-picture-image_2379588.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
-.Main__header{
-    background-color: yellow;
-    width: 90em;
-    border: 3px solid whitesmoke;
-    margin-left: 120px;
+.Header__page{
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 24px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
 }
-.Main_header__h1{
-    text-shadow: 3px 2px 3px blue;
-    justify-content: center;
+.Title{
+    font-size: 5em;
+    color: #ffd;
+    text-shadow: 0px 0px 8px #D9DC0F;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    padding: 10px 5px;
+}
+.Title__page{
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 2px 2px 8px #000;
+    letter-spacing: 2px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 5px;
+    margin-left: 150px;
+    text-align: justify;
+}
+.Paragraphy{
+    color: #ffd;
+    font-size: 2.9em;
+    font-weight: 300;
+    text-shadow: 0 0 10px #006;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.Navigation__bar{
+    margin: auto;
+    background-color: #000;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0px 160px;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    box-shadow: 0px 0px 20px #fd0;
+    text-align: center;
+}
+#Palabra{
+    color: #f00;
+}
+.Navigation__bar__list{
+    display: flex;
+    list-style: none;
+    margin: 10px 20px;
+    margin: auto;
     text-align: center;
 
+}
+#List__content{
+    margin: 0px 500px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 1.9em;
+}
+.Navigation__bar__Link{
+    text-decoration: none;
+    color: #ffd;
+}
+.Main__page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 10px;
+}
+.Section__page{
+    width: 800px;
+    background-color: #050500;
+    padding: 50px 40px 50px 40px  ;
+    margin: 0 30px;
+    box-sizing: border-box;
+    box-shadow: 0 0 35px #000;
+    text-align: center;
+}
+.Imagen__peli{
+    width: 700px;
+    filter: drop-shadow(0 0 10px #fd3);
+    border-radius: 15px;
+}
+.Paragraphy__page{
+    font-size: 3em;
+    color: #fff;
+    text-align: justify;
+    padding: 10px 10px;
+    letter-spacing: 0.5px;
+    margin-top: 75px;
 }
