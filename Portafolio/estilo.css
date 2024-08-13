@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: Tahoma;
+}
+.Header__page{
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 30px;
+}
+.Header__page__nav{
+    padding: 5px;
+}
+.Header__page__List{
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 40px #000;
+    border-right: 4px solid #005;
+    border-top: 4px solid #005;
+    padding: 5px;
+}
+hr{
+    margin: 0 100px;
+    border: 2px solid #555;
+}
+.Header__page__Link{
+    text-decoration: none;
+    color: #632;
+}
+.Header__page__List__cont{
+    width: 700px;
+    margin: 2px 30px;
+    font-size: 1.9em;
+    font-weight: 600;
+}
+.Main__page{
+    width: 1900px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: transparent;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 50px #ffd1;
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.Main__page__Imagen{
+    width: 500px;
+    border-radius: 40%;
+    margin-bottom: 12px;
+    filter: brightness(1,1);
+    mix-blend-mode: multiply;
+    filter: drop-shadow(0 0 40px #013);
+}
+.Main__page__Title{
+    margin-top: 40px;
+    font-size: 3em;
+    color: #632;
+    text-shadow: 0px 0px 5px #021;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.Main__page__paragraphy{
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    margin-top: 40px;
+    color: #632;
+    text-align: justify;
+    border-right: 1px solid #002;
+    border-top: 1px solid #002;
+    padding: 15px;
+}
+.article__page{
+    padding: 30px;
+    margin-top: 40px;
+}
+.article__page__Imagen{
+    margin: 120px;
+    margin-top: 10px;
+    width: 100px;
+    filter: brightness(1,1);
+    mix-blend-mode: multiply;
+    filter: drop-shadow(0px 0px 30px #013);
+    border: none;
+    border-radius: 15px;
+}
+.Sections__Main{
+    text-align: center;
+    margin-top: 24px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main__Title__Section{
+    font-size: 2.5em;
+    text-align: left;
+    color: #632;
+    text-shadow: 0 0 3px #005;
+    margin-left: 20px;
+}
+.Article__Biografia{
+    margin: 105px;
+    margin-top: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 0 35px;
+}
+.Section__Biografia__Title{
+    font-size: 2.4em;
+    color: #025;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-style: italic;
+    padding: 5px;
+}
+.Article__Biografia__Image{
+    width: 400px;
+    filter: drop-shadow(0 0 40px #000)
+    
+}
+.Section__Biografia__paragraphy{
+    margin-top: 10px;
+    color: #632;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
