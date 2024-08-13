@@ -76,6 +76,7 @@ hr{
     border-right: 1px solid #002;
     border-top: 1px solid #002;
     padding: 15px;
+    font-weight: 700;
 }
 .article__page{
     padding: 30px;
