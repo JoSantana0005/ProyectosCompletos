@@ -34,7 +34,7 @@ hr{
 }
 .Header__page__List__cont{
     width: 700px;
-    margin: 2px 30px;
+    margin: 30px 15px;
     font-size: 1.9em;
     font-weight: 600;
 }
@@ -92,6 +92,12 @@ hr{
     border: none;
     border-radius: 15px;
 }
+.Line__main{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #005;
+    margin-top: 50px;
+}
 .Sections__Main{
     text-align: center;
     margin-top: 24px;
@@ -109,13 +115,13 @@ hr{
 }
 .Article__Biografia{
     margin: 105px;
-    margin-top: 5px;
+    margin-top: 40px;
     padding: 30px;
     box-sizing: border-box;
     box-shadow: 0 0 35px;
 }
 .Section__Biografia__Title{
-    font-size: 2.4em;
+    font-size: 3em;
     color: #025;
     letter-spacing: 2px;
     font-weight: 500;
@@ -131,8 +137,93 @@ hr{
 .Section__Biografia__paragraphy{
     margin-top: 10px;
     color: #632;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 700;
     letter-spacing: 1.5px;
     text-align: justify;
 }
+.Form__page__file{
+    padding: 35px;
+    margin: 10px;
+    border: none;
+    border-top: 2px solid #9299B4;
+    border-right: 2px solid #9299B4;
+    border-radius: 15px;
+}
+.Form__page__div{
+    margin: 40px;
+}
+.Form__page__textarea{
+    width: 1000px;
+    height: 750px;
+    resize: vertical;
+    padding: 15px;
+    color: #632;
+    font-size: 2em;
+    min-height: 100px;
+    max-height: 800px;
+}
+.Form__page__textarea::placeholder{
+    color: #632;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: Tahoma;
+}
+.Form__page__input{
+    padding: 30px 15px;
+    width: 390px;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #632;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 2px 2px 40px #005;
+}
+.Section__Proyects{
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+.Article__Proyects{
+    margin: 70px;
+    padding: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background: transparent;
+    font-size: 16px;
+}
+.Article__Link{
+    text-decoration: none;
+    color: #632;
+    padding: 12px;
+}
+.Article__Proyects__Imagen{
+    width: 700px;
+    filter: drop-shadow(0 0 40px #005);
+}
+.Article__Title{
+    font-size: 3em;
+    color: #025;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.Article__Proyects__paragraphy{
+    text-align: justify;
+    font-size: 2.9em;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-top: 50px;
+    padding: 20px;
+    text-shadow: 0 0 5px #ffd;
+}
+
+
