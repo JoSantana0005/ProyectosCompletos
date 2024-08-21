@@ -104,7 +104,7 @@ body{
     position: relative;
     width: 600px;
     text-align: center;
-    left: 905px;
+    left: 918px;
     bottom: 415px;
     padding: 20px;
     font-size: 14px;
@@ -154,11 +154,60 @@ body{
 }
 .Paragraphy__about{
     line-height: 40px;
-    font-size: 2.2em;
+    font-size: 1.6em;
     text-align: justify;
     letter-spacing: 2px;
     padding: 5px 50px;
 }
+.Section__hability{
+    width: 600px;
+    padding: 15px;
+    margin: 15px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    position: relative;
+    left: 918px;
+    bottom: 1700px;
+    border-radius: 15px;
+    border-top: 2px solid #ffdd;
+    border-bottom: 2px solid #ffdd;
+    
+}
+.Title__hability{
+    font-size: 3em;
+    padding: 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #ffd;
+}
+.Paragraphy__hability{
+    font-size: 1.6em;
+    margin: 0;
+    padding-right: 25px;
+}
+.List__hability{
+    display: block;
+    margin-top: 5px;
+    padding: 30px;
+    text-align: center;
+}
+.List__Hability{
+    margin: 15px 0px;
+    margin-top: 0;
+    padding: 10px 20px;
+}
 
+.Imagen__hability{
+    width: 110px;
+    filter: none;
+    mix-blend-mode: normal;
+    border-radius: 12px;
+    outline: none
+}
+.Section__Project{
+    position: relative;
+    bottom: 1640px;
+}
 
 
