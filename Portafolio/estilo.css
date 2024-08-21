@@ -1,229 +1,164 @@
 body{
+    background: linear-gradient(to right, #003, #000);
+    font-family: "AnekDevanagari";
     margin: 0;
-    font-family: Tahoma;
 }
-.Header__page{
-    margin: auto;
-    padding: 30px;
-    text-align: center;
-    background-color: transparent;
-    margin-top: 30px;
-}
-.Header__page__nav{
+.Header{
+    margin: 30px 70px;
     padding: 5px;
-}
-.Header__page__List{
-    list-style: none;
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     box-sizing: border-box;
-    box-shadow: 0 0 40px #000;
-    border-right: 4px solid #005;
-    border-top: 4px solid #005;
-    padding: 5px;
-}
-hr{
-    margin: 0 100px;
-    border: 2px solid #555;
-}
-.Header__page__Link{
-    text-decoration: none;
-    color: #632;
-}
-.Header__page__List__cont{
-    width: 700px;
-    margin: 30px 15px;
-    font-size: 1.9em;
-    font-weight: 600;
-}
-.Main__page{
-    width: 1900px;
-    margin: auto;
-    margin-top: 50px;
-    padding: 30px;
-    background-color: transparent;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 50px #ffd1;
-    text-align: center;
-    font-size: 16px;
-    box-sizing: border-box;
-}
-.Main__page__Imagen{
-    width: 500px;
-    border-radius: 40%;
-    margin-bottom: 12px;
-    filter: brightness(1,1);
-    mix-blend-mode: multiply;
-    filter: drop-shadow(0 0 40px #013);
-}
-.Main__page__Title{
-    margin-top: 40px;
-    font-size: 3em;
-    color: #632;
-    text-shadow: 0px 0px 5px #021;
-    letter-spacing: 1.5px;
-    margin-bottom: 12px;
-    text-transform: uppercase;
-}
-.Main__page__paragraphy{
-    letter-spacing: 2px;
-    font-size: 2em;
-    margin-top: 40px;
-    color: #632;
-    text-align: justify;
-    border-right: 1px solid #002;
-    border-top: 1px solid #002;
-    padding: 15px;
-    font-weight: 700;
-}
-.article__page{
-    padding: 30px;
-    margin-top: 40px;
-}
-.article__page__Imagen{
-    margin: 120px;
-    margin-top: 10px;
-    width: 100px;
-    filter: brightness(1,1);
-    mix-blend-mode: multiply;
-    filter: drop-shadow(0px 0px 30px #013);
-    border: none;
-    border-radius: 15px;
-}
-.Line__main{
-    width: 100%;
-    margin: auto;
-    border: 1px solid #005;
-    margin-top: 50px;
-}
-.Sections__Main{
-    text-align: center;
-    margin-top: 24px;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.Main__Title__Section{
-    font-size: 2.5em;
-    text-align: left;
-    color: #632;
-    text-shadow: 0 0 3px #005;
-    margin-left: 20px;
-}
-.Article__Biografia{
-    margin: 105px;
-    margin-top: 40px;
-    padding: 30px;
-    box-sizing: border-box;
-    box-shadow: 0 0 35px;
-}
-.Section__Biografia__Title{
-    font-size: 3em;
-    color: #025;
-    letter-spacing: 2px;
-    font-weight: 500;
-    text-transform: capitalize;
-    font-style: italic;
-    padding: 5px;
-}
-.Article__Biografia__Image{
-    width: 400px;
-    filter: drop-shadow(0 0 40px #000)
-    
-}
-.Section__Biografia__paragraphy{
-    margin-top: 10px;
-    color: #632;
-    font-size: 2em;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    text-align: justify;
-}
-.Form__page__file{
-    padding: 35px;
-    margin: 10px;
-    border: none;
-    border-top: 2px solid #9299B4;
-    border-right: 2px solid #9299B4;
-    border-radius: 15px;
-}
-.Form__page__div{
-    margin: 40px;
-}
-.Form__page__textarea{
-    width: 1000px;
-    height: 750px;
-    resize: vertical;
-    padding: 15px;
-    color: #632;
-    font-size: 2em;
-    min-height: 100px;
-    max-height: 800px;
-}
-.Form__page__textarea::placeholder{
-    color: #632;
-    font-size: 1.2em;
-    font-weight: 600;
-    font-family: Tahoma;
-}
-.Form__page__input{
-    padding: 30px 15px;
-    width: 390px;
-    font-size: 2.2em;
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #632;
-    box-sizing: border-box;
-    border: none;
+    border: 1px solid #ffdd;
     border-radius: 12px;
-    box-shadow: 2px 2px 40px #005;
+    box-shadow: 0 0 40px #000;
 }
-.Section__Proyects{
-    display: flex;
-    margin: auto;
-    margin-top: 100px;
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 120px;
+.Navigator__bar{
+    margin: 10px;
+    padding: 5px;
+    font-size: 12px;
 }
-.Article__Proyects{
-    margin: 70px;
-    padding: 20px;
-    margin-top: 10px;
-    box-sizing: border-box;
-    background: transparent;
-    font-size: 16px;
+.List{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 109px;
 }
-.Article__Link{
+.List__cont{
+    font-size: 1.2em;
+    font-weight: 800;
+}
+.Link{
+    color: #ffda;
     text-decoration: none;
-    color: #632;
+    border: none;
+    border-bottom: 1px solid #ffd;
+    border-right: 1px solid #ffd;
+    padding: 5px 10px;
+    letter-spacing: 3px;
+    transition: background 400ms 0.1s, border-bottom 400ms 0.1s,
+    border-right 400ms 0.1s, color 400ms 0.1s, padding 400ms 0.1s;
+}
+.Link:hover{
+    background: #27f;
+    border-bottom: 2px solid #666;
+    border-right: 2px solid #666;
+    padding: 10px 15px;
+    color: #5f9;
+}
+.Main{
+    margin: 67px 70px;
     padding: 12px;
 }
-.Article__Proyects__Imagen{
-    width: 700px;
-    filter: drop-shadow(0 0 40px #005);
+.Section__Main{
+    width: 750px;
+    font-size: 12px;
+    margin: 25px;
+    margin-top: 40px;
+    padding: 45px;
+    box-sizing: border-box;
+    letter-spacing: 2.5px;
+    text-align: left;
 }
-.Article__Title{
-    font-size: 3em;
-    color: #025;
-    font-weight: 600;
-    letter-spacing: 2px;
+.Title{
+    font-size: 3.2em;
+    padding: 5px 20px;
+    color: #88d;
+    text-shadow: 0 0 35px #666;
+    margin: 0;
+}
+.Paragraphy{
+    padding: 0 20px;
+}
+.paragraphy__Title{
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-top: 0;
     text-transform: uppercase;
-    margin-top: 50px;
+    color: #fff;
+    text-wrap: pretty;
+    text-shadow: 0 0 35px #666;
 }
-.Article__Proyects__paragraphy{
-    text-align: justify;
-    font-size: 2.9em;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    margin-top: 50px;
+.List__Main{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 30px;
+    margin-top: 5px;
+    margin-left: 0;
+    padding: 0;
+}
+
+.Imagen__List{
+    width: 75px;
+    filter: brightness(1,1);
+    filter: drop-shadow(0 0 40px #fff);
+    mix-blend-mode: overlay;
+    border-radius: 30%;
+    outline: 1px solid #ffdf;
+    outline-offset: 3px;
+    transition: padding 400ms 0.1s, outline 400ms 0.1s;
+}
+.Imagen__List:hover{
+    padding: 5px 20px;
+    outline: 1px solid #ffdd00;
+    outline-offset: 10px;
+}
+.Section__page{
+    position: relative;
+    width: 600px;
+    text-align: center;
+    left: 905px;
+    bottom: 415px;
     padding: 20px;
-    text-shadow: 0 0 5px #ffd;
+    font-size: 14px;
 }
+.Imagen{
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 0 0 40px #000;
+    transition: box-shadow 400ms 0.1s;
+}
+.Imagen:hover{
+    box-shadow: 0 0 40px #ffdd00;
+}
+.Paragraphy{
+    margin-top: 30px;
+    color: #ffd;
+    font-size: 3.2em;
+    font-style: italic;
+    font-weight: 300;
+    text-shadow: 0 0 5px #000;
+}
+.Section__about{
+    position: relative;
+    bottom: 520px;
+    left: 0;
+    width: 800px;
+    padding: 20px;
+    margin: 0;
+    font-size: 12px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border-top: 2px solid #ffdd;
+    border-bottom: 2px solid #ffdd;
+    text-align: center;
+}
+.Imagen__about{
+    width: 500px;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+.Title__about{
+    color: #fff;
+    text-shadow: none;
+    font-size: 3.4em;
+    text-align: left;
+    padding: 5px 50px;
+}
+.Paragraphy__about{
+    line-height: 40px;
+    font-size: 2.2em;
+    text-align: justify;
+    letter-spacing: 2px;
+    padding: 5px 50px;
+}
+
 
 
