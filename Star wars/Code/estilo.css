@@ -1,113 +1,115 @@
 body{
     margin: 0;
-    font-family: sans-serif;
-    background-image: url("https://png.pngtree.com/background/20230410/original/pngtree-game-star-wars-background-picture-image_2379588.jpg");
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    font-family: "Ubuntu";
 }
-.Header__page{
-    text-align: center;
-    margin: auto;
-    margin-top: 30px;
-    padding: 20px;
-    font-size: 24px;
+.Header{
+    margin: 20px 50px;
+    padding: 12px;
     box-sizing: border-box;
-    margin-bottom: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: 0 0 40px #000;
+    font-size: 12px;
 }
 .Title{
-    font-size: 5em;
-    color: #ffd;
-    text-shadow: 0px 0px 8px #D9DC0F;
-    letter-spacing: 2px;
-    margin-bottom: 5px;
-    padding: 10px 5px;
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background: linear-gradient(to right, #000, #ffdd00);
+    color: #ffdf;
+    padding: 5px;
+    margin-left: 40px;
 }
-.Title__page{
-    font-size: 4em;
-    color: #fff;
-    text-shadow: 2px 2px 8px #000;
-    letter-spacing: 2px;
-    margin: 10px 0px 10px 0px;
-    padding: 10px 5px;
-    margin-left: 150px;
-    text-align: justify;
+.Navigator__bar{
+    margin: 10px;
+    padding-top: 15px;
 }
-.Paragraphy{
-    color: #ffd;
-    font-size: 2.9em;
-    font-weight: 300;
-    text-shadow: 0 0 10px #006;
-    letter-spacing: 0.5px;
-    text-align: center;
+.List{
+    display: inline-block;
+    margin: 0 160px;
 }
-.Navigation__bar{
-    margin: auto;
-    background-color: #000;
-    margin-top: 10px;
-    padding: 10px;
-    box-sizing: border-box;
-    margin: 0px 160px;
-    font-size: 24px;
-    font-weight: 400;
-    font-style: italic;
-    box-shadow: 0px 0px 20px #fd0;
-    text-align: center;
+.Link{
+    text-decoration: none;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #003;
+    border-right: 2px solid #ffdd00;
+    border-bottom: 2px solid #ffdd00;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 0;
+    transition: background-color 1s 0.1s, color 1s 0.1s, 
+    border-right 1s 0.1, border-bottom 1s 0.1s, padding 1s 0.1s;
 }
-#Palabra{
-    color: #f00;
+.Link:hover{
+    background: #456;
+    color: #ffdd00;
+    border-right: 2px solid #005;
+    border-bottom: 2px solid #005;
+    padding: 15px;
 }
-.Navigation__bar__list{
+.Main{
     display: flex;
-    list-style: none;
-    margin: 10px 20px;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 95px;
+}
+.Section__page{
+    width: 700px;
     margin: auto;
+    margin-top: 20px;
+    padding: 35px;
+    box-sizing: border-box;
+    box-shadow: 0 0 40px #000;
+    font-size: 14px;
+    border-radius: 40px;
     text-align: center;
 
 }
-#List__content{
-    margin: 0px 500px;
+.Title--Section{
+    background: none;
+    color: #000;
+    margin: 0;
     padding: 10px;
-    font-weight: 700;
-    font-size: 1.9em;
+    letter-spacing: 2px;
+    text-shadow: 0 0 2px #456;
+    margin-bottom: 30px;
+    text-align: left;
 }
-.Navigation__bar__Link{
-    text-decoration: none;
-    color: #ffd;
-}
-.Main__page{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    padding: 10px;
-}
-.Section__page{
-    width: 800px;
-    background-color: #050500;
-    padding: 50px 40px 50px 40px  ;
-    margin: 0 35px;
+.Imagen__section{
+    width: 480px;
+    border-radius: 20px;
+    outline: 2px solid #067;
+    outline-offset: 4px;
     box-sizing: border-box;
-    box-shadow: 0 0 35px #000;
-    text-align: center;
+    transition: padding 500ms 0.1s, outline 500ms 0.1s;
 }
-.Imagen__peli{
-    width: 700px;
-    filter: drop-shadow(0 0 10px #fd3);
-    border-radius: 15px;
+.Imagen__section:hover{
+    padding: 15px;
+    outline: 2px solid #ffdd00;
 }
-.Paragraphy__page{
-    font-size: 3em;
-    color: #fff;
+.Paragraphy{
+    font-size: 1.6em;
+    margin-top: 50px;
     text-align: justify;
-    padding: 10px 10px;
-    letter-spacing: 0.5px;
-    margin-top: 75px;
+    text-wrap: pretty;
 }
-.Pelicula__Link{
-    text-decoration: none;
+.Paragraphy--origin{
+    text-anchor: end;
+    padding: 5px;
 }
-.Pelicula__Link:hover{
-    box-sizing: border-box;
-    box-shadow: 0 0 40px #f00;
+.Paragraphy::first-letter{
+    color: #f00;
+    font-size: 2em;
+}
+.Link--section{
+    border: none;
+    transition: background 400ms 0.1s, padding 400ms 0.1s;
+}
+.Link--section:hover{
+    background: none;
+    padding: 100px 30px;
 }
