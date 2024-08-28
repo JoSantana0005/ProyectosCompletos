@@ -1,6 +1,10 @@
 body{
     margin: 0;
     font-family: "Ubuntu";
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20230325/pngtree-future-star-wars-star-science-and-technology-character-silhouette-image_2090951.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .Header{
     margin: 20px 50px;
@@ -10,6 +14,7 @@ body{
     flex-flow: row wrap;
     box-shadow: 0 0 40px #000;
     font-size: 12px;
+    background-color: #DFE0E4;
 }
 .Title{
     font-size: 3em;
@@ -48,4 +53,90 @@ body{
     border-right: 2px solid #005;
     border-bottom: 2px solid #005;
     padding: 15px;
+}
+.Main{
+    display: flex;
+    flex-flow: nowrap wrap;
+    padding: 35px;
+    margin: 25px 40px;
+    margin-top: 35px;
+    justify-content: center;
+    align-items: normal;
+    font-size: 14px;
+}
+.Section__page{
+    width: 800px;
+    margin: 45px;
+    padding: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 0 0 40px #000;
+    background: #DFE0E4;
+}
+.Title--page{
+    background: none;
+    font-size: 3.2em;
+    font-style: normal;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 3px;
+    color: #66e;
+    text-shadow: 0 0 3px #000;
+    text-align: left;
+}
+.Imagen__page{
+    width: 500px;
+    border-radius: 40px;
+    outline: 2px solid #045;
+    outline-offset: 3px;
+    box-sizing: border-box;
+    box-shadow: 0 0 40px transparent;
+    margin: 40px;
+    transition: padding 500ms 0.1s, outline 500ms 0.1s,
+    box-shadow 400ms 0.1s;
+}
+.Imagen__page:hover{
+    padding: 12px 19px;
+    outline: 2px solid #456;
+    box-shadow: 0 0 35px #e04d;
+}
+.Imagenes{
+    display: flex;
+    padding: 10px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.Imagen__Figure{
+    margin: 10px;
+    width: 300px;
+    outline: 2px solid #045;
+    outline-offset: 3px;
+    box-sizing: border-box;
+    box-shadow: 0 0 35px transparent;
+    border-radius: 40px;
+    transition: padding 500ms 0.1s, outline 500ms 0.1s,
+    box-shadow 400ms 0.1s;
+}
+.Imagen__Figure:hover{
+    outline: 2px solid #456;
+    padding: 12px 19px;
+    box-shadow: 0 0 35px #e04d;
+}
+.Article__page{
+    padding: 5px;
+}
+.Paragraphy{
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-wrap: pretty;
+    text-align: justify;
+    margin: 0;
+    padding: 10px;
+    line-height: 40px;
+}
+.Paragraphy::first-letter{
+    font-size: 2em;
+    color: #02f;
 }
