@@ -77,13 +77,13 @@ main{
     padding: 10px;
     margin-top: 55px;
     display: flex;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     align-items: flex-start;
 }
 main .Section__page{
     display: flex;
     flex-flow: column wrap;
-    border: 1px solid #fff;
     padding: 5px;
 }
 main .Section__page .Presentation{
@@ -107,6 +107,88 @@ main .Section__page .Presentation p{
     text-transform: capitalize;
     color: #ddd;
     letter-spacing: 2px;
+}
+main .Section__page .Presentation ul{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+main .Section__page .Presentation ul li{
+    padding: 5px 10px;
+}
+main .Section__page .Presentation ul li img{
+    width: 55px;
+    border-radius: 25px;
+    outline: 2px solid #000009;
+    outline-offset: 2px;
+    padding: 2px 5px;
+    transition: .1s linear;
+    cursor: pointer;
+}
+main .Section__page .Presentation ul li img:hover{
+    outline: 2px solid #ddd;
+    padding: 5px 10px;
+}
+main .Section__page .Presentation .Pargaraphy{
+    font-size: 1.6em;
+    padding: 3px;
+}
+main .Section__page .Presentation .List--skill{
+    gap: 5PX;
+    padding: 4px;
+    justify-content: space-evenly;
+    flex-flow: row-reverse wrap;
+}
+main .Section__page .Presentation .List--skill .Imagen{
+    outline: 2px solid #222
+}
+main .Section__page .Presentation .List--skill .Imagen:hover{
+    outline: 2px solid #fff;
+    padding: 5px 8px;
+}
+main .Article__page{
+    margin-top: 25px;
+    width: 400px;
+    padding: 10px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main .Article__page .Presentation__article{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 5px;
+}
+
+main .Article__page .Presentation__article h2{
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #EBC714, #3D3D3D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-wrap: wrap;
+    text-transform: capitalize;
+}
+main .Article__page .Presentation__article p{
+    font-size: 1.2em;
+    text-align: justify;
+    text-wrap: pretty;
+}
+main .Article__page .Presentation__article p::first-letter{
+    color: #04f;
+    font-size: 1.4em;
 }
 
 
