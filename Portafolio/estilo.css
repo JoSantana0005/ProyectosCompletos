@@ -1,3 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #fff;
+}
+body{
+    background: linear-gradient(to left, #3D3D3D, #000000);
+}
+header{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 0 40px #3D3D3D;
+    border: 1px solid #222;
+    border-radius: 35px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: left;
+}
+header .Navigation__bar{
+    display: flex;
+    padding-left: 15px;
+    gap: 70px;
+}
+header .Navigation__bar h2{
+    letter-spacing: 2px;
+    padding-left: 10px;
+    font-size: 1.7em;
+    margin-top: 13px;
+    font-weight: 700;
+    background: linear-gradient(to right, #EBC714, #3D3D3D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-wrap: wrap;
+    text-transform: capitalize;
+}
+header .Navigation__bar ul{
+    align-items: center;
+    list-style: none;
+    margin-left: 55px;
+    padding-left: 12px;
+}
+header .Navigation__bar ul .Link{
+    text-decoration: none;
+}
+header .Navigation__bar ul .List__cont{
+    font-size: 1.3em;
+    letter-spacing: 1.5px;
+    border: 2px solid #3D3D3D;
+    padding: 0 20px;
+    margin: 0;
+    font-weight: 600;
+    border-radius: 15px;
+    transition: .1s linear;
+}
+header .Navigation__bar ul .List__cont:hover{
+    background-color: #EBC714;
+    color: #000009;
+    border: 2px solid #aaa;
+    padding: 1px 30px;
+}
+header .Navigation__bar .Imagen__Logo{
+    align-items: center;
+    margin-left: 65px;
+    padding: 0;
+}
+header .Navigation__bar .Imagen__Logo img{
+    width: 50px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 40px #ddd;
+}
+main{
+    width: 100%;
+    padding: 10px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+main .Section__page{
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+main .Section__page .Presentation{
+    padding: 2px 10px;
+    margin: auto;
+}
+main .Section__page .Presentation h3{
+    font-size: 3.4em;
+    font-weight: 500;
+    text-shadow: 0 0 5px #444;
+    background: linear-gradient(to bottom, #A2A915 , #3B3D32 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-wrap: wrap;
+    padding: 4px;
+}
+main .Section__page .Presentation p{
+    font-size: 1.9em;
+    text-align: left;
+    text-transform: capitalize;
+    color: #ddd;
+    letter-spacing: 2px;
+}
 
 
 
