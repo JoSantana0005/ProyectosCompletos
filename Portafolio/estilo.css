@@ -75,7 +75,7 @@ header .Navigation__bar .Imagen__Logo img{
 main{
     width: 100%;
     padding: 10px;
-    margin-top: 55px;
+    margin-top: 5px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -189,6 +189,40 @@ main .Article__page .Presentation__article p{
 main .Article__page .Presentation__article p::first-letter{
     color: #04f;
     font-size: 1.4em;
+}
+main .Contact--section{
+    border: 1px solid #aaa;
+    width: 90%;
+    margin-top: 12px;
+    padding: 10px;
+}
+main .Contact--section form{
+    border: 1px solid #aaa;
+    width: 450px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    padding: 5px;
+}
+main .Contact--section form h2{
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #EBC714, #3D3D3D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-wrap: wrap;
+    text-transform: capitalize;
+    padding: 2px;
+}
+main .Contact--section form .Input--Container{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+main .Contact--section form .Input--Container label:nth-child(1){
+    
 }
 
 
