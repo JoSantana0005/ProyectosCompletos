@@ -1,0 +1,33 @@
+:root{
+    --PrimaryColor: #000;
+    --SecondaryColor: #ffe81f;
+    --HoverColor: #2e579e;
+    --FontColor: #ddb27f;
+}
+.Sidebar--section{
+    border-right: 1px solid var(--FontColor);
+    width: 90px;
+    height: 90vh;
+    background-color: var(--PrimaryColor);
+    display: flex;
+    justify-content: center;
+}
+.Sidebar--section ul{
+    list-style: none;
+    padding: 15px;
+    gap: 25px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.Sidebar--section ul svg{
+    fill: var(--FontColor);
+    border: 1px solid var(--HoverColor);
+    border-radius: 15px;
+    transition: .1s linear;
+}
+.Sidebar--section ul svg:hover{
+    fill: #fff;
+    border: 2px solid var(--SecondaryColor);
+    background-color: #000;
+}
