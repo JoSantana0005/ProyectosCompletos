@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+:root{
+    --PrimaryColor: #000;
+    --SecondaryColor: #ffe81f;
+    --HoverColor: #2e579e;
+    --FontColor: #ddb27f;
+}
+body{
+    background: url(../Imagen/Fondo.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}

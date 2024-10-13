@@ -1,0 +1,52 @@
+:root{
+    --PrimaryColor: #000;
+    --SecondaryColor: #ffe81f;
+    --HoverColor: #2e579e;
+    --FontColor: #ddb27f;
+}
+.Cabecera--page{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: var(--PrimaryColor);
+    padding: 20px;
+    border-bottom: 2px solid var(--FontColor);
+    
+}
+.Cabecera--page div{
+    display: flex;
+    width: 100%;
+    color: var(--FontColor);
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 75px;
+}
+.Cabecera--page div h1{
+    font-size: 2.4em;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.Cabecera--page div a{
+    text-decoration: none;
+    color: var(--FontColor);
+    padding: 3px;
+    font-size: 1.4em;
+    border-right: 2px solid var(--PrimaryColor);
+    border-bottom: 2px solid var(--PrimaryColor);
+    width: 120px;
+    color: var(--PrimaryColor);
+    background-color: var(--SecondaryColor);
+    text-align: center;
+    border-radius: 35px;
+    letter-spacing: 1.5px;
+    transition: .1s linear;
+    font-weight: 500;
+}
+.Cabecera--page div a:hover{
+    color: #fff;
+    background-color: var(--HoverColor);
+    box-shadow: 0 0 10px var(--FontColor);
+
+}
