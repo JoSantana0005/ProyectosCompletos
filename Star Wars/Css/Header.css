@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     background-color: var(--PrimaryColor);
-    padding: 20px;
+    padding: 10px;
     border-bottom: 2px solid var(--FontColor);
     
 }

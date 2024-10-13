@@ -14,7 +14,7 @@
 }
 .Sidebar--section ul{
     list-style: none;
-    padding: 15px;
+    padding: 35px;
     gap: 25px;
     display: flex;
     flex-flow: column wrap;

@@ -15,5 +15,87 @@ body{
     background: url(../Imagen/Fondo.jpg);
     background-repeat: no-repeat;
     height: 100vh;
-
+}
+main{
+    position: absolute;
+    top: 65px;
+    left: 100px;
+    width: 50%;
+    height: 86%;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: var(--FontColor);
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+}
+main .Peliculas{
+    border: 1px solid #aaa;
+    height: 205px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    overflow-y: auto;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+main .Peliculas::-webkit-scrollbar{
+    display: none;
+}
+main .Peliculas article h2{
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    font-style: italic;
+    padding-left: 10px;
+}
+main .Peliculas article:nth-child(1){
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+main .Peliculas article:nth-child(1) svg{
+    cursor: pointer;
+    transition: .1s linear;
+}
+main .Peliculas article:nth-child(1) svg:hover{
+    padding: 1.5px;
+}
+main .Peliculas article:nth-child(1) div{
+    margin: 2px;
+    display: flex;
+    gap: 15px;
+    margin-left: 450px;
+}
+main .Peliculas article:nth-child(2){
+    border: 1px solid #fff;
+    height: 125px;
+    display: flex;
+    gap: 15px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+main .Peliculas article:nth-child(2) div{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 3px;
+    text-align: center;
+}
+main .Peliculas article:nth-child(2) div img{
+    width: 146px;
+    border-radius: 10px;
+    border: 2px solid var(--FontColor);
+    transition: .1s linear;
+}
+main .Peliculas article:nth-child(2) div img:hover{
+    padding: 5px;
+    border: 2px solid var(--HoverColor);
+    cursor: pointer;
+}
+main .Peliculas article:nth-child(2) div p{
+    letter-spacing: 1px;
+    font-size: 0.9em;
 }
