@@ -23,6 +23,7 @@ main{
     width: 50%;
     height: 86%;
     border: 1px solid #fff;
+    background-color: var(--PrimaryColor);
     border-radius: 25px;
     color: var(--FontColor);
     padding: 15px;
@@ -30,16 +31,12 @@ main{
     justify-content: left;
 }
 main .Peliculas{
-    border: 1px solid #aaa;
     height: 205px;
     width: 100%;
     padding: 10px;
     display: flex;
     flex-flow: column wrap;
     gap: 10px;
-    overflow-y: auto;
-    overflow-x: auto;
-    scroll-behavior: smooth;
 }
 main .Peliculas::-webkit-scrollbar{
     display: none;
@@ -48,13 +45,15 @@ main .Peliculas article h2{
     font-size: 1.5em;
     letter-spacing: 1px;
     font-style: italic;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 main .Peliculas article:nth-child(1){
-    border: 1px solid #fff;
     display: flex;
+    width: 100%;
     align-items: center;
     padding-right: 30px;
+    border-radius: 15px;
+    border-bottom: 2px solid var(--HoverColor);
 }
 main .Peliculas article:nth-child(1) svg{
     cursor: pointer;
@@ -70,13 +69,21 @@ main .Peliculas article:nth-child(1) div{
     margin-left: 450px;
 }
 main .Peliculas article:nth-child(2){
-    border: 1px solid #fff;
     height: 125px;
+    width: 100%;
     display: flex;
     gap: 15px;
-    padding-left: 10px;
-    justify-content: center;
     align-items: center;
+    overflow-y: auto;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    border-left: 2px solid var(--HoverColor);
+    border-bottom: 2px solid var(--HoverColor);
+    border-radius: 25px;
+    padding-left: 5px;
+}
+MAIN .Peliculas article:nth-child(2)::-webkit-scrollbar{
+    display: none;
 }
 main .Peliculas article:nth-child(2) div{
     display: flex;
