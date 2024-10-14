@@ -14,6 +14,9 @@
 body{
     background: url(../Imagen/Fondo.jpg);
     background-repeat: no-repeat;
+    background-position-y: 60px;
+    background-position-x: 60px;
+    background-attachment: fixed;
     height: 100vh;
 }
 main{
@@ -21,7 +24,7 @@ main{
     top: 65px;
     left: 100px;
     width: 50%;
-    height: 86%;
+    height: 88.8%;
     border: 1px solid var(--SecondaryColor);
     background-color: var(--PrimaryColor);
     border-radius: 25px;
