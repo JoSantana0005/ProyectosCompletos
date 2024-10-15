@@ -218,7 +218,9 @@ dialog{
     background-color: var(--PrimaryColor);
     color: var(--FontColor);
     border: 2px solid var(--SecondaryColor);
+    outline: none;
 }
+
 dialog[open]{
     animation: openModal 0.9s forwards;
 }
@@ -237,11 +239,12 @@ dialog span{
     font-size: 1.5em;
     position: absolute;
     right: 10px;
-    top: 5px;
+    top: 10px;
     width: 40px;
     cursor: pointer;
     transition: .1s linear;
 }
+
 dialog span:hover{
     padding: 0.5px;
     border-radius: 5px;
@@ -318,4 +321,18 @@ dialog .Sables .Sable img{
     height: 100%;
     border-radius: 15px;
     box-shadow: 0 0 5px var(--SecondaryColor);
+    transition: .1s linear;
 }
+dialog .Sables .Sable:nth-child(1) img:hover{
+    box-shadow: 0 0 5px #0ae;
+    cursor: pointer;
+}
+dialog .Sables .Sable:nth-child(2) img:hover{
+    box-shadow: 0 0 5px #6e0;
+    cursor: pointer;
+}
+dialog .Sables .Sable:nth-child(3) img:hover{
+    box-shadow: 0 0 5px #e30;
+    cursor: pointer;
+}
+

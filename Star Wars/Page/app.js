@@ -22,13 +22,13 @@ Left_person.addEventListener('click',()=>{
 const Person = [
     {
         "Name": "Anakin Skywalker",
-        "Content": "Es un personaje ficticio de la saga de Star Wars. Es un Jedi que se convierte en el villano Darth Vader. Es interpretado por el actor Hayden Christensen en los episodios II y III de la saga.",
-        "Imagen": "https://static.wikia.nocookie.net/starwars/images/6/6f/Anakin_Skywalker_RotS.png/revision/latest?cb=20161019014713"
+        "Content": "Es un personaje ficticio de la saga de Star Wars. Es un Jedi que se convierte en el villano Darth Vader. Es interpretado por el actor Hayden Christensen en los episodios II y III de la saga.se predice que Anakin es el Elegido, aquel que traerá el equilibrio a la Fuerza. Sin embargo, Anakin se convierte en Darth Vader, el aprendiz de Darth Sidious, y ayuda a los Sith a destruir a los Jedi.",
+        "Imagen": "https://i.pinimg.com/736x/fe/a3/de/fea3dedad7541a906ea10f29ded6c55c.jpg"
     },
     {
         "Name": "Luke Skywalker",
         "Content": "Es un personaje ficticio y el protagonista de la trilogía original de Star Wars. Es hijo de Anakin Skywalker y Padmé Amidala, hermano gemelo de Leia Organa y padre de Ben Solo.",
-        "Imagen": "https://static.wikia.nocookie.net/starwars/images/2/20/LukeTLJ.jpg/revision/latest?cb=20171215195636"
+        "Imagen": "https://i.pinimg.com/736x/df/83/f3/df83f32c0f31e87171db7d711f8f169f.jpg"
     },
     {
         "Name": "Leia Organa",
@@ -46,6 +46,14 @@ Array.from(Jedis).forEach((Jedi,index)=>{
     Jedi.addEventListener('click',()=>{
         if(Ventana){
             Ventana.show();
+            const Name = document.getElementById('Title');
+            const Content = document.getElementById('content');
+            const Imagen = document.getElementById('Imagen--personaje');
+            if(Name && Content && Imagen){
+                Name.textContent = Person[index].Name;
+                Content.textContent = Person[index].Content;
+                Imagen.src = Person[index].Imagen;
+            }
         }else{
             console.log('No se encontro la ventana');
         }
