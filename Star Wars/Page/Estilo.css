@@ -219,6 +219,20 @@ dialog{
     color: var(--FontColor);
     border: 2px solid var(--SecondaryColor);
 }
+dialog[open]{
+    animation: openModal 0.9s forwards;
+}
+/* Animación para abrir el modal */
+@keyframes openModal {
+    0% {
+      transform: scale(0.7);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+}
 dialog span{
     font-size: 1.5em;
     position: absolute;
@@ -236,9 +250,8 @@ dialog span:hover{
     box-shadow: 0 0 5px var(--FontColor);
 }
 dialog .Imagen{
-    border: 1px solid #fff;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 15px;
     height: 260px;
     width: 220px;
     padding: 5px;
@@ -249,16 +262,15 @@ dialog .Imagen img{
     margin-top: 5px;
     border-radius: 55px;
     border: 2px solid var(--FontColor);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 dialog .Imagen h3{
     font-size: 1.3em;
     letter-spacing: 1px;
 }
 dialog .Descripción--personajes{
-    border: 2px solid #fff;
     width: 275px;
-    height: 255px;
+    height: 260px;
     position: absolute;
     left: 240px;
     top: 35px;
@@ -275,16 +287,19 @@ dialog .Descripción--personajes p::first-letter{
     color: var(--HoverColor);
 }
 dialog .Sables{
-    border: 1px solid #fff;
-    margin: 20px 12px 0 12px;
+    margin: 10px 12px 0 12px;
     text-align: left;
     padding: 5px;
-    height: 120px;
+    height: 205px;
+    border-radius: 15px;
 }
 dialog .Sables h2{
     font-size: 1.3em;
     letter-spacing: 1px;
-    padding-left: 5px;
+    padding-left: 2px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--HoverColor);
+    margin: 0 15px 10px 10px;
 }
 dialog .Sables div{
     display: flex;
@@ -294,7 +309,13 @@ dialog .Sables div{
     gap: 25px;
 }
 dialog .Sables .Sable{
-    border: 1px solid #fff;
     width: 130px;
-    height: 80px;
+    height: 160px;
+    border-radius: 15px;
+}
+dialog .Sables .Sable img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px var(--SecondaryColor);
 }
