@@ -269,5 +269,20 @@ dialog .Descripción--personajes p{
     font-size: 1.2em;
     text-align: justify;
     text-wrap: pretty;
-
+}
+dialog .Descripción--personajes p::first-letter{
+    font-size: 1.3em;
+    color: var(--HoverColor);
+}
+dialog .Sables{
+    border: 1px solid #fff;
+    margin: 20px 12px 0 12px;
+    text-align: left;
+    padding: 5px;
+    height: 120px;
+}
+dialog .Sables h2{
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    padding-left: 10px;
 }
