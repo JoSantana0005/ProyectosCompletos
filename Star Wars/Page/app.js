@@ -115,6 +115,7 @@ const Person = [
 const Jedis = document.getElementsByClassName('Personajes--imagen');
 let Verde = document.getElementById('Verde');
 let Rojo = document.getElementById('Rojo');
+let titulo = document.getElementById('Titulo');
 const CloneVerde = Verde.cloneNode(true);
 const CloneRojo = Rojo.cloneNode(true);
 const Sables = document.querySelectorAll('.Sable');
@@ -167,7 +168,18 @@ Array.from(Jedis).forEach((Jedi,index)=>{
                     }
                 })
             
-            }else{
+            }else if(Person[index].Name == "R2-D2" || Person[index].Name == "C-3PO"){
+                titulo.innerHTML = ""
+                Sables.forEach((sable)=>{
+                    sable.style.display = 'none';
+                })
+            }else if(Person[index].Name == "Boba Fett" || Person[index].Name == "Han Solo"){
+                titulo.innerHTML = "";
+                Sables.forEach((sable)=>{
+                    sable.style.display = 'none';
+                })
+            }
+            else{
                 Sables.forEach((sable)=>{
                     sable.style.display = 'flex';
                 })
