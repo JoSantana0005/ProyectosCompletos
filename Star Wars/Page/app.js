@@ -53,6 +53,8 @@ Array.from(Jedis).forEach((Jedi,index)=>{
                 Name.textContent = Person[index].Name;
                 Content.textContent = Person[index].Content;
                 Imagen.src = Person[index].Imagen;
+            }else{
+                console.log('No se encontro el contenido ${index}');
             }
         }else{
             console.log('No se encontro la ventana');
