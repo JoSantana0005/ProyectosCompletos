@@ -1,0 +1,20 @@
+:root{
+    --PrimaryColor: #000;
+    --SecondaryColor: #ffe81f;
+    --HoverColor: #2e579e;
+    --FontColor: #ddb27f;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 14px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: url('../Imagen/Fondo.jpg');
+    background-position-x: 50px;
+    background-position-y: 0;
+    color: var(--FontColor);
+    
+}
