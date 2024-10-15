@@ -133,7 +133,7 @@ Array.from(Jedis).forEach((Jedi,index)=>{
             }else{
                 console.log('No se encontro el contenido ${index}');
             }
-            if(Person[index].Name == "Obi-Wan Kenobi"){
+            if(Person[index].Name == "Obi-Wan Kenobi" || Person[index].Name == "Rey"){
                 Sables.forEach((sable)=>{
                     if(sable.id == "Azul"){
                         sable.style.display = 'flex';
@@ -142,11 +142,8 @@ Array.from(Jedis).forEach((Jedi,index)=>{
                     }
                 })
 
-            }else if(Person[index].Name == "Anakin Skywalker"){
-                Sables.forEach((sable)=>{
-                    sable.style.display = 'flex';   
-                })
-            }else if(Person[index].Name == "Quin-Gon Jinn" || Person[index].Name == "Maestro Yoda"){
+            }
+            else if(Person[index].Name == "Quin-Gon Jinn" || Person[index].Name == "Maestro Yoda"){
                 Sables.forEach((sable)=>{
                     if(sable.id == "Verde"){
                         sable.style.display = 'flex';
