@@ -206,3 +206,68 @@ main .Personajes article:nth-child(2) div img:hover{
     border: 2px solid var(--HoverColor);
     padding: 5px;
 }
+/*Dialog*/
+dialog{
+    width: 80%;
+    height: 120%;
+    position: relative;
+    left: 35px;
+    top: -12px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: var(--PrimaryColor);
+    color: var(--FontColor);
+    border: 2px solid var(--SecondaryColor);
+}
+dialog span{
+    font-size: 1.5em;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 40px;
+    cursor: pointer;
+    transition: .1s linear;
+}
+dialog span:hover{
+    padding: 0.5px;
+    border-radius: 5px;
+    background-color: var(--HoverColor);
+    color: #fff;
+    box-shadow: 0 0 5px var(--FontColor);
+}
+dialog .Imagen{
+    border: 1px solid #fff;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 260px;
+    width: 220px;
+    padding: 5px;
+    border-radius: 15px;
+}
+dialog .Imagen img{
+    width: 200px;
+    margin-top: 5px;
+    border-radius: 55px;
+    border: 2px solid var(--FontColor);
+    margin-bottom: 10px;
+}
+dialog .Imagen h3{
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+dialog .Descripción--personajes{
+    border: 2px solid #fff;
+    width: 275px;
+    height: 255px;
+    position: absolute;
+    left: 240px;
+    top: 35px;
+    padding: 5px;
+    border-radius: 15px;
+}
+dialog .Descripción--personajes p{
+    font-size: 1.2em;
+    text-align: justify;
+    text-wrap: pretty;
+
+}

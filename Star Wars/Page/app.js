@@ -41,14 +41,19 @@ const Person = [
     }
 ]
 const Jedis = document.getElementsByClassName('Personajes--imagen');
+const Ventana = document.getElementById('Ventana');
 Array.from(Jedis).forEach((Jedi,index)=>{
     Jedi.addEventListener('click',()=>{
-        const Ventana = document.getElementById('Ventana');
         if(Ventana){
             Ventana.show();
         }else{
             console.log('No se encontro la ventana');
         }
     })
+})
+//Evento para cerrar la ventana
+let Cerrar = document.getElementById('Cerrar');
+Cerrar.addEventListener('click',()=>{
+    Ventana.close();
 })
     
