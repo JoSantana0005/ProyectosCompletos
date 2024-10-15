@@ -40,3 +40,15 @@ const Person = [
         "Content": "Es un personaje ficticio de la saga de Star Wars. Es un contrabandista y héroe de la Alianza Rebelde. Es interpretado por Harrison Ford en la trilogía original de Star Wars.",
     }
 ]
+const Jedis = document.getElementsByClassName('Personajes--imagen');
+Array.from(Jedis).forEach((Jedi,index)=>{
+    Jedi.addEventListener('click',()=>{
+        const Ventana = document.getElementById('Ventana');
+        if(Ventana){
+            Ventana.show();
+        }else{
+            console.log('No se encontro la ventana');
+        }
+    })
+})
+    
