@@ -13,10 +13,10 @@ let Right_person = document.getElementById('Right--personajes');
 let Left_person = document.getElementById('Left--personajes');
 let Personajes = document.getElementsByClassName('Person')[0];
 Right_person.addEventListener('click',()=>{
-    Personajes.scrollLeft += 430;
+    Personajes.scrollLeft += 370;
 })
 Left_person.addEventListener('click',()=>{
-    Personajes.scrollLeft -= 430;
+    Personajes.scrollLeft -= 370;
 })
 //Json para las imagenes de los personajes
 const Person = [
