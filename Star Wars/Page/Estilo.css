@@ -284,5 +284,17 @@ dialog .Sables{
 dialog .Sables h2{
     font-size: 1.3em;
     letter-spacing: 1px;
-    padding-left: 10px;
+    padding-left: 5px;
+}
+dialog .Sables div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    gap: 25px;
+}
+dialog .Sables .Sable{
+    border: 1px solid #fff;
+    width: 130px;
+    height: 80px;
 }
