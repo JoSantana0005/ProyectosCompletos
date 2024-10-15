@@ -121,18 +121,22 @@ const Sables = document.querySelectorAll('.Sable');
 const Ventana = document.getElementById('Ventana');
 Array.from(Jedis).forEach((Jedi,index)=>{
     Jedi.addEventListener('click',()=>{
+        
         if(Ventana){
             Ventana.show();
             const Name = document.getElementById('Title');
             const Content = document.getElementById('content');
             const Imagen = document.getElementById('Imagen--personaje');
+            
             if(Name && Content && Imagen){
                 Name.textContent = Person[index].Name;
                 Content.textContent = Person[index].Content;
                 Imagen.src = Person[index].Imagen;
-            }else{
+            }
+            else{
                 console.log('No se encontro el contenido ${index}');
             }
+            
             if(Person[index].Name == "Obi-Wan Kenobi" || Person[index].Name == "Rey"){
                 Sables.forEach((sable)=>{
                     if(sable.id == "Azul"){
@@ -143,6 +147,7 @@ Array.from(Jedis).forEach((Jedi,index)=>{
                 })
 
             }
+            
             else if(Person[index].Name == "Quin-Gon Jinn" || Person[index].Name == "Maestro Yoda"){
                 Sables.forEach((sable)=>{
                     if(sable.id == "Verde"){
@@ -151,6 +156,7 @@ Array.from(Jedis).forEach((Jedi,index)=>{
                         sable.style.display = 'none';
                     }
                 })
+            
             }else if(Person[index].Name == "Darth Vader" || Person[index].Name == "Maestro Dooku" || 
                 Person[index].Name == "Canciller Palpatine" || Person[index].Name == "Darth Maul"){
                 Sables.forEach((sable)=>{
@@ -160,11 +166,13 @@ Array.from(Jedis).forEach((Jedi,index)=>{
                         sable.style.display = 'none';
                     }
                 })
+            
             }else{
                 Sables.forEach((sable)=>{
                     sable.style.display = 'flex';
                 })
             }
+        
         }else{
             console.log('No se encontro la ventana');
         }
