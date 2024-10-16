@@ -1,7 +1,82 @@
-div{
+section{
+    width: 30%;
+    margin: auto;
+    margin-top: 120px;
+    padding: 10px;
     display: flex;
-    border: 2px solid #fff;
     justify-content: center;
     align-items: center;
-    width: 320px;
+}
+section article{
+    border: 2px solid #aaa;
+    box-shadow: 0px 0px 5px var(--SecondaryColor);
+    border-radius: 15px;
+    height: 340px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    backdrop-filter: blur(25px);
+}
+section article form{
+    margin: 5px;
+}
+section article form h1{
+    text-align: center;
+    font-size: 2.3em;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+section article form div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+    align-items: left;
+    gap: 3px;
+    padding: 15px;
+}
+section article form div label{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-left: 5px;
+}
+section article form div input{
+    padding: 5px 7px;
+    width: 285px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid var(--SecondaryColor);
+    border-right: 2px solid var(--SecondaryColor);
+    color: #fff;
+    font-size: 1.1em;
+    transition: .1s linear;
+}
+section article form div input:focus{
+    border-bottom: 2px solid #f00;
+    border-right: 2px solid #f00;
+}
+section article form div input::placeholder{
+    color: var(--FontColor);
+    font-size: 1.1em;
+}
+section article form div button{
+    padding: 6px 2px;
+    margin: 2px 15px 3px 15px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    background-color: #aaa;
+    color: var(--PrimaryColor);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .1s linear;
+}
+section article form div button:hover{
+    background-color: var(--HoverColor);
+    border: 2px solid var(--FontColor);
+    color: #fff;
 }

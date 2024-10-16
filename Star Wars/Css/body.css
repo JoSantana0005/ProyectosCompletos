@@ -16,5 +16,6 @@ body{
     background-position-x: 50px;
     background-position-y: 0;
     color: var(--FontColor);
-    
+    display: flex;
+    justify-content: center;
 }
