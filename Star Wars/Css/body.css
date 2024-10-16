@@ -12,10 +12,12 @@
     box-sizing: border-box;
 }
 body{
-    background: url('../Imagen/Fondo.jpg');
-    background-position-x: 50px;
-    background-position-y: 0;
+    background: url('https://p4.wallpaperbetter.com/wallpaper/783/587/809/star-wars-death-star-science-fiction-wallpaper-preview.jpg');
+    background-position-x: center;
+    background-position-y: -50px;
     color: var(--FontColor);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
 }

@@ -42,7 +42,7 @@ Ingresar.addEventListener('click',()=>{
         ListaUsario.Contraseña = contraseña.value;
         if(enlace){
             alert('Ingreso con exito')
-            window.Location.href = enlace
+            window.location.href = enlace
         }else{
             console.log('No se encontro la pagina');
         }
@@ -51,5 +51,13 @@ Ingresar.addEventListener('click',()=>{
         alert('Complete los campos para poder ingresar')
     }else if(correo.value == 0 || contraseña.value == 0){
         alert('Hay algunos campos vacios, por favor complete todos los campos para poder continuar');
+    }
+})
+CrearCuenta.addEventListener('click',()=>{
+    const enlace = '../Registro/Registro.html';
+    if(enlace){
+        window.location.href = enlace
+    }else{
+        alert('No se encontro la pagina');
     }
 })
