@@ -195,4 +195,76 @@ let Cerrar = document.getElementById('Cerrar');
 Cerrar.addEventListener('click',()=>{
     Ventana.close();
 })
+//Lista de las peliculas
+const Peliculas_Desc = [
+    {
+        "Name": "La Amenaza Fantasma",
+        "Imagen": "../../Imagenes/amenaza.png",
+        "Content": ""
+    },
+    {
+        "Name": "El Ataque de los clones",
+        "Imagen": "../../Imagenes/ataque.png",
+        "Content": ""
+    },
+    {
+        "Name": "La Venganza de los Sith",
+        "Imagen": "../../Imagenes/venganza.png",
+        "Content": "",
+    },
+    {
+        "Name": "Una Nueva Esperanza",
+        "Imagen": "../../Imagenes/esperanza.png",
+        "Content": "",
+    },
+    {
+        "Name": "El Imperio Contrataca",
+        "Imagen": "../../Imagenes/imperio.jpg",
+        "Content": ""
+    },
+    {
+        "Name": "El Retorno del Jedi",
+        "Imagen": "../../Imagenes/regreso.png",
+        "Content": ""
+    },
+    {
+        "Name": "El Despertar de la Fuerza",
+        "Imagen": "../../Imagenes/rey.jpeg",
+        "Content": ""
+    },
+    {
+        "Name": "Los Ultimos Jedis",
+        "Imagen": "../../Imagenes/Ultimos.png",
+        "Content": ""
+    },
+    {
+        "Name": "El Ascenso de Skywalker",
+        "Imagen": "../../Imagenes/Ascenso.jpeg",
+        "Content": ""
+    }
+]
+let Peliculas_Imagen = document.getElementsByClassName('Pelicula--Imagen');
+const dialog_Peliculas = document.getElementById('Dialog--Imagen')
+Array.from(Peliculas_Imagen).forEach((pelicula,index) =>{
+    pelicula.addEventListener('click',()=>{
+        if(dialog_Peliculas){
+            dialog_Peliculas.show();
+            const Imagen_peliculas = document.getElementById('Imagen__peli');
+            const Nombre_pelicula = document.getElementById('Nombre');
+            const descripcion_pelicula = document.getElementById('Desc--peliculas');
+            if(Imagen_peliculas && Nombre_pelicula && descripcion_pelicula){
+                Imagen_peliculas.src = Peliculas_Desc[index].Imagen;
+                Nombre_pelicula.textContent = Peliculas_Desc[index].Name;
+                descripcion_pelicula.textContent = Peliculas_Desc[index].Content;
+            }else{
+                console.log("No se encontro el contenido de la pelicula ${index}");
+            }
+        }
+    })
+})
+//Evento para cerrar la ventana de las peliculas
+const cerrar_imagen = document.getElementById('Cerrar--imagen');
+cerrar_imagen.addEventListener('click',()=>{
+    dialog_Peliculas.close();
     
+})
