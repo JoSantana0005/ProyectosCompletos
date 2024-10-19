@@ -268,3 +268,13 @@ cerrar_imagen.addEventListener('click',()=>{
     dialog_Peliculas.close();
     
 })
+//evento para mover los personajes de las peliculas del dialog
+const Left_peliculas = document.getElementById('Left--peliculas');
+const Right_peliculas = document.getElementById('Right--peliculas');
+const Peliculas_personajes = document.getElementById('Personajes--peliculas');
+Left_peliculas.addEventListener('click',()=>{
+    Peliculas_personajes.scrollLeft -= 370;
+})
+Right_peliculas.addEventListener('click',()=>{
+    Peliculas_personajes.scrollLeft += 370;
+})

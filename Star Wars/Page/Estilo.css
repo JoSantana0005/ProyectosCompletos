@@ -356,6 +356,82 @@ dialog .Title-Imagen h3{
     font-size: 1.3em;
     letter-spacing: 1px;
     text-transform: capitalize;
-    margin-top: 4px;
+    margin-top: 5px;
     font-style: italic;
+}
+dialog .Descripcion{
+    margin-top: 10px;
+    width: 450px;
+    position: relative;
+    left: 35px;
+    text-align: justify;
+    padding: 2px;
+}
+dialog .Descripcion p{
+    font-size: 1.1em;
+    text-wrap: pretty;
+    letter-spacing: 1px;
+}
+dialog .Descripcion p::first-letter{
+    font-size: 1.2em;
+    color: var(--HoverColor);
+}
+dialog .Personajes--pelicula{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
+    left: 35px;
+    padding: 2px;
+    margin-top: 15px;
+}
+dialog .Personajes--pelicula div h3{
+    margin-top: 3px;
+    margin-right: 10px;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    padding-left: 5px;
+}
+dialog .Personajes--pelicula div .iconos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+dialog .Personajes--pelicula div .iconos svg{
+    cursor: pointer;
+}
+dialog .Person{
+    width: 80%;
+    padding: 10px;
+    border-left: 2px solid var(--HoverColor);
+    border-bottom: 2px solid var(--HoverColor);
+    border-radius: 15px; 
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    overflow-x: auto;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+dialog .Person::-webkit-scrollbar{
+    display: none;
+}
+dialog .Person .Personajes--Imagen{
+    display: flex;
+    align-items: center;
+}
+dialog .Person .Personajes--Imagen img{
+    width: 70px;
+    border-radius: 35px;
+    text-align: center;
+    border: 2px solid var(--FontColor);
+    cursor: pointer;
+    transition: .1s linear;
+}
+dialog .Person .Personajes--Imagen img:hover{
+    border: 2px solid var(--HoverColor);
+    padding: 5px;
 }
