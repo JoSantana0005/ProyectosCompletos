@@ -147,6 +147,33 @@ Array.from(Jedis).forEach((Jedi,index)=>{
                     }
                 })
 
+            }else if(Person[index].Name == "Luke Skywalker"){
+                Sables.forEach((sable)=>{
+                    if(sable.id == "Verde" || sable.id == "Azul"){
+                        sable.style.display = 'flex';
+                    }else{
+                        sable.style.display = 'none';
+                    }
+                })
+            
+            }
+            else if(Person[index].Name == "Maestro Windu"){
+                Sables.forEach((sable)=>{
+                    if(sable.id == "Morado"){
+                        sable.style.display = 'flex';
+                    }else{
+                        sable.style.display = 'none';
+                    }
+                })
+            }
+            else if(Person[index].Name == "Anakin Skywalker"){
+                Sables.forEach((sable)=>{
+                    if(sable.id == "Azul" || sable.id == "Rojo" || sable.id == "Verde"){
+                        sable.style.display = 'flex';
+                    }else{
+                        sable.style.display = 'none';
+                    }
+                })
             }
             
             else if(Person[index].Name == "Quin-Gon Jinn" || Person[index].Name == "Maestro Yoda"){
@@ -169,12 +196,12 @@ Array.from(Jedis).forEach((Jedi,index)=>{
                 })
             
             }else if(Person[index].Name == "R2-D2" || Person[index].Name == "C-3PO"){
-                titulo.innerHTML = ""
+                titulo.innerHTML = "Armas";
                 Sables.forEach((sable)=>{
                     sable.style.display = 'none';
                 })
             }else if(Person[index].Name == "Boba Fett" || Person[index].Name == "Han Solo"){
-                titulo.innerHTML = "";
+                titulo.innerHTML = "Armas";
                 Sables.forEach((sable)=>{
                     sable.style.display = 'none';
                 })
