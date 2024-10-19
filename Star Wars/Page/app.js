@@ -196,12 +196,12 @@ Array.from(Jedis).forEach((Jedi,index)=>{
                 })
             
             }else if(Person[index].Name == "R2-D2" || Person[index].Name == "C-3PO"){
-                titulo.innerHTML = "Armas";
+                titulo.innerHTML = ""
                 Sables.forEach((sable)=>{
                     sable.style.display = 'none';
                 })
             }else if(Person[index].Name == "Boba Fett" || Person[index].Name == "Han Solo"){
-                titulo.innerHTML = "Armas";
+                titulo.innerHTML = "";
                 Sables.forEach((sable)=>{
                     sable.style.display = 'none';
                 })
