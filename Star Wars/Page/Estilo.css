@@ -335,6 +335,12 @@ dialog .Sables .Sable:nth-child(3) img:hover{
     box-shadow: 0 0 5px #e30;
     cursor: pointer;
 }
+dialog .Title-Imagen{
+    padding: 5px;
+    border-radius: 15px;
+    margin: 10px 5px 0 5px;
+    border-bottom: 2px solid var(--HoverColor);
+}
 dialog .Title-Imagen img{
     width: 70%;
     margin-top: 15px;
