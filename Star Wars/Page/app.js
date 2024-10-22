@@ -136,7 +136,7 @@ Array.from(Jedis).forEach((Jedi,index)=>{
                 console.log('No se encontro el contenido ${index}');
             }
             
-            if(Person[index].Name == "Obi-Wan Kenobi" || Person[index].Name == "Rey"){
+            if(Person[index].Name == "Obi-Wan Kenobi"){
                 titulo.innerHTML = "Sables de Luz";
                 Sables.forEach((sable)=>{
                     if(sable.id == "Azul"){
@@ -222,6 +222,16 @@ Array.from(Jedis).forEach((Jedi,index)=>{
                         }
                     })
                 }
+            }else if(Person[index].Name == "Rey"){
+                titulo.innerHTML = "Sables de luz";
+                Sables.forEach((sable)=>{
+                    if(sable.id == "Azul" || sable.id == "Amarillo"){
+                        sable.style.display = 'flex';
+                    }
+                    else{
+                        sable.style.display = 'none';
+                    }
+                })
             }
             else{
                 titulo.innerHTML = "Sables de Luz";
