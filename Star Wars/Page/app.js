@@ -252,7 +252,7 @@ const Peliculas_Desc = [
         "Name": "El Ataque de los clones",
         "Imagen": "../../Imagenes/ataque.png",
         "Content": "Es la quinta película de la saga de Star Wars en términos de la cronología interna de la serie. La película fue escrita y dirigida por George Lucas y fue estrenada el 16 de mayo de 2002. La película es la segunda entrega de la trilogía de precuelas de Star Wars y se sitúa 10 años después de los eventos de La amenaza fantasma.",
-        "Characters": [""]
+        "Characters": ["7.jpg"]
     },
     {
         "Name": "La Venganza de los Sith",
@@ -299,17 +299,13 @@ Array.from(Peliculas_Imagen).forEach((pelicula,index) =>{
             const Imagen_peliculas = document.getElementById('Imagen__peli');
             const Nombre_pelicula = document.getElementById('Nombre');
             const descripcion_pelicula = document.getElementById('Desc--peliculas');
-            if(Imagen_peliculas && Nombre_pelicula && descripcion_pelicula){
+            const Personajes_peliculas = document.getElementsByClassName('Personajes--Imagen');
+            if(Imagen_peliculas && Nombre_pelicula && descripcion_pelicula && Personajes_peliculas){
                 Imagen_peliculas.src = Peliculas_Desc[index].Imagen;
                 Nombre_pelicula.textContent = Peliculas_Desc[index].Name;
                 descripcion_pelicula.textContent = Peliculas_Desc[index].Content;
-                const Personajes_peliculas = document.getElementsByClassName('Personajes--Imagen');
                 Array.from(Personajes_peliculas).forEach((personaje)=>{
-                    if(Peliculas_Desc[index].Characters){
-                        personaje.src = `../../Imagen/${Peliculas_Desc[index].Characters}`;
-                    }else{
-                        console.log("No se encontro el contenido de la pelicula ${index}");
-                    }
+                    
                 })
 
             }else{
