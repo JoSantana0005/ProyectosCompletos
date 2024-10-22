@@ -270,7 +270,7 @@ const Peliculas_Desc = [
         "Name": "El Imperio Contrataca",
         "Imagen": "../../Imagenes/imperio.jpg",
         "Content": "Es la quinta película de la saga de Star Wars en términos de la cronología interna de la serie. La película fue escrita por Leigh Brackett y Lawrence Kasdan y dirigida por Irvin Kershner. Fue estrenada el 21 de mayo de 1980. La película es la quinta entrega de la saga en términos de producción y la segunda en ser estrenada. La película se sitúa tres años después de los eventos de Una nueva esperanza.",
-        "Characters": ["../Imagen/episodio V/25.jpg","../Imagen/episodio V/26.jpg","../Imagen/episodio V/27.jpg","../Imagen/episodio V/28.jpg","../Imagen/episodio V/29.jpg", "../Imagen/episodio V/30.jpg"]
+        "Characters": ["../Imagen/episodio V/25.jpg","../Imagen/episodio IV/20.jpg","../Imagen/episodio IV/21.jpg","../Imagen/episodio IV/22.jpg","../Imagen/episodio II/12.jpg", "../Imagen/episodio IV/19.jpg"]
     },
     {
         "Name": "El Retorno del Jedi",
