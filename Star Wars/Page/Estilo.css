@@ -335,8 +335,20 @@ dialog .Sables .Sable:nth-child(3) img:hover{
     box-shadow: 0 0 20px #e30;
     cursor: pointer;
 }
+dialog .Sables .Sable:nth-child(4) img:hover{
+    box-shadow: 0 0 20px #aaa;
+    cursor: pointer
+}
 dialog .Sables .Sable:nth-child(5) img:hover{
     box-shadow: 0 0 20px var(--SecondaryColor);
+    cursor: pointer;
+}
+dialog .Sables .Sable:nth-child(6) img:hover{
+    box-sizing: 0 0 20px #aaa;
+    cursor: pointer
+}
+dialog .Sables .Sable:nth-child(7) img:hover{
+    box-shadow: 0 0 20px #aaa;
     cursor: pointer;
 }
 dialog .Title-Imagen{
